@@ -1,0 +1,845 @@
+/*PopUp-CSS*/
+div#myModal {
+    margin-bottom: 50px;
+    background: linear-gradient(116.2deg, #84FF59 33.21%, #43AC44 76.17%);
+    padding: 0 0 90px 0;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+.modal-backdrop.show {
+    background: #fff;
+    opacity: 1 !important;
+}
+div.modal::before {
+    content: '';
+    background: url(images/left-banner.png);
+    width: 300px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 63px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.modal::after {
+    content: '';
+    background: url(images/right-banner.png);
+    width: 300px;
+    height: 480px;
+    position: absolute;
+    right: 0;
+    top: 63px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4.modal-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 63.15px;
+    line-height: 133px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #60BA38;
+}
+.modal-body input.form-control {
+    margin: 0px 0 30px 0;
+    padding: 15px 0 17px 20px;
+    background: #E1E1E1;
+    color: #000;
+}
+.modal-body input.form-num-input {
+    width: 100%;
+    padding: 15px 0 17px 20px;
+    background: #E1E1E1;
+    color: #000;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+.modal-body {
+    padding: 10px 72px 0 !important;
+}
+.modal-body button.btn.btn-primary {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24.5638px;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #060E03 0%, #0A2101 100%);
+    padding: 28px 27px;
+    border: 1px solid #000;
+    border-radius: 50px;
+    position: relative;
+    top: 22px;
+}
+.modal-content {
+    border-radius: 57px !important;
+    margin-top: 70px !important;
+}
+.modal-header {
+    padding: 20px 40px 20px 30px !important;
+}
+section.banner-section {background: linear-gradient(116.2deg, #84FF59 33.21%, #43AC44 76.17%); padding: 0 0 90px 0; 
+    position: relative;
+    border-bottom-left-radius: 52%;
+    border-bottom-right-radius: 52%;
+    margin-bottom: 50px;}
+section.banner-section::before {
+    content: '';
+    background: url(images/left-banner.png);
+    width: 400px;
+    height: 590px;
+    position: absolute;
+    left: 0;
+    top: 63px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.banner-section::after {
+    content: '';
+    background: url(images/right-banner.png);
+    width: 400px;
+    height: 670px;
+    position: absolute;
+    right: 0;
+    top: 63px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo.text-center {
+    padding: 30px 0 100px 0;
+}
+.banner-content h1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 119.153px;
+line-height: 133px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #FFFFFF;}
+.banner-content h4{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 54px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #FFFFFF;
+    padding: 40px 100px 40px 100px;
+}
+.banner-content p{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 0 120px;
+}
+.banner-content h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 90.9146px;
+line-height: 101px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #FFFFFF;
+padding: 23px 0 70px 0;
+}
+.image-banner {
+    margin-bottom: 60px;
+}
+.image-banner img {
+    width: 100%;
+    height: auto;
+}
+.banner-content a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36PX;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #5DBC39;
+    background: #fff;
+    padding: 17px 50px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.banner-content a:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+section.after-banner-sec.text-center {
+    padding: 50px 0;
+}
+.after-sec-content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90.9146px;
+    line-height: 101px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #43AC44;
+}
+.after-sec-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #232323;
+    padding: 0 80px;
+}
+.after-sec-content .list-content {
+    margin: 34px 100px;
+}
+.list-content ul{
+    text-align: left;
+    list-style: none;
+}
+.list-content ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 65px;
+    text-transform: capitalize;
+    color: #282828;
+    padding: 9px 0 0 0;
+}
+section.success-step {
+    background: #F6F6F6;
+    padding: 50px 0;
+}
+.step-content p{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 37.6333px;
+line-height: 44px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #282828;
+margin: 0;
+}
+.step-content h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 111px;
+    line-height: 114px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #43AC44;    
+    margin-bottom: 70px;
+
+}
+img.mobile-im {
+    display: none;
+}
+.step-image img {
+    width: 100%;
+}
+.spy-content h3, .rinse-cont h3, .Funnel-content h3, .Outsource-cont h3, .Traffic-cont h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 49px;;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #25C5D9;
+}
+.spy-content p, .rinse-cont p, .Funnel-content p, .Outsource-cont p, .Traffic-cont p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    text-transform: capitalize;
+    color: #121212;
+    letter-spacing: -0.05em;
+}
+.Outsource-cont.text-center {
+    padding-top: 80px;
+}
+.rinse-cont h3{color:#920F3B;}
+.Funnel-content h3{color:#FFAC1E; }
+.Outsource-cont h3{color:#25C5D9; }
+.Traffic-cont h3{color: #E64857;}
+ .Funnel-content p{
+    padding: 0 0 0 50px;
+}
+.sec-inner-step-content {
+    margin-top: -40px;
+}
+section.Accelerator {
+    padding-bottom: 50px;
+}
+.yes-in-btn a {
+    background: #D20000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51.693px;
+    line-height: 0px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 16px 90px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.yes-in-btn a:hover {
+    border: 2px solid #D20000;
+    color: #D20000;
+    background: transparent;
+}
+.acc-content p{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 29.9842px;
+line-height: 29px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #121212;
+}
+.acc-content h3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 59px;
+text-transform: uppercase;
+color: #0B9443;
+    padding: 0 160px;
+}
+.acc-content.text-center {
+    padding: 50px 0 0 0;
+}
+.seo-mlm-marketing {
+    padding-top: 80px;
+}
+.seo-mlm-marketing .image-box {
+    border-bottom: 1px solid #D5D3D3;
+    padding-bottom: 36px;
+}
+.image-box.box-2 {
+    margin-top: -63px;
+}
+.no-sec {
+    margin-top: -60px;
+}
+.no-sec h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 169px;
+    line-height: 206px;
+    color: #0B9443;
+    text-transform: uppercase;
+    border-bottom: 1px solid #D5D3D3;
+}
+.Facebook-invent .image-box.box-3 {
+    margin-top: -94px;
+}
+.compli-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55.9667px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #282828;
+}
+.compli-content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #43AC44;
+}
+.compli-content img{padding: 50px 0;}
+.acc-6-days h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #282828;
+    margin-top: 0;
+}
+.acc-6-days h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #43AC44;
+}
+.acc-6-days p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.73px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #232323;
+    padding: 15px 40px 60px;
+}
+.acc-6-days .yes-in-btn a {line-height: 130px;}
+.acc-6-days .yes-in-btn p{ padding: 0;}
+.failed p{padding:15px 130px 40px;}
+.interested-inner {
+    padding: 50px 0;
+}
+
+.interested-inner h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46.73px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #0B9443;
+}
+.interested-inner p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.73px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #232323;
+}
+section.guide {
+    padding: 0 0 40px 0;
+}
+.guid-inner-content {
+    padding: 110px 0 0 0;
+}
+.guid-inner-content h2, .progress-content h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64.58px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.guid-inner-content p, .progress-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.73px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #232323;
+    padding: 20px 0 10px 0px;
+    margin:0;
+}
+.progress-content{padding-top:50px; }
+.progress-content h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49.73px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #232323;
+}
+.jup-inner-cont.text-center {
+    padding-top: 130px;
+}
+.jup-inner-cont p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 39px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #282828;
+}
+.jup-inner-cont h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+     font-size: 45.58px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #43AC44;
+}
+.jum-image img{width: 100%;}
+.jup-inner-cont a {
+     background: #D20000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.693px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 16px 60px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.jup-inner-cont a:hover {
+    border: 2px solid #D20000;
+    color: #D20000;
+    background: transparent;
+}
+.jup-inner-cont h4{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+line-height: 22px;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+color: #121212;
+}
+section.jump-ready {
+    padding-bottom: 50px;
+}
+.footer-content p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 130%;
+letter-spacing: -0.05em;
+color: #2D2D2D;
+}
+
+@media screen and (max-width: 1199px) {
+    section.banner-section {
+    padding: 0 0 70px 0;
+    border-bottom-left-radius: 46%;
+    border-bottom-right-radius: 46%;}
+section.banner-section::before {
+    width: 280px;
+    height: 500px;}
+    section.banner-section::after {
+    width: 280px;
+    height: 500px;}
+    .image-banner img {
+    width: 80%;}
+    .after-sec-content .list-content {
+    margin: 34px 50px;
+}
+.list-content ul li {
+    font-size: 36px;}
+    .sec-inner-step-content {
+    margin-top: 0;
+}
+.compli-content h2{font-size: 60px;}
+.compli-content p {font-size: 45.9667px;}
+.Outsource-cont.text-center {padding-top: 0;}
+.compli-content img{width: 100%;}
+}
+@media screen and (max-width: 991px) {
+    div#myModal{border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;}
+section.banner-section::before, div.modal::before {
+    width: 240px;
+    height: 420px;
+}
+section.banner-section::after, div.modal::after {
+    width: 240px;
+    height: 420px;
+}
+.banner-content h1, .banner-content h2, .after-sec-content h2, .step-content h2 {
+    font-size: 69.153px;
+    line-height: 73px;}
+    .banner-content h4 {
+    font-size: 40px;
+    line-height: 47px;
+    padding: 30px 30px 30px 40px;
+}
+.banner-content p {
+    font-size: 31px;
+    line-height: 37px;
+    padding: 0 20px;
+}
+section.banner-section {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin:0;
+}
+.logo.text-center {
+    padding: 30px 0 30px 0;
+}
+.image-banner img {
+    width: 100%;
+}
+.after-sec-content .list-content {
+    margin: 4px 0px;
+}
+.list-content ul li {
+    font-size: 30px;
+    line-height: 54px;
+}
+.Funnel-content p {
+    padding: 0 0 0 0;
+}
+.acc-content h3 {
+    padding: 0 40px;
+}
+.spy-content p, .rinse-cont p, .Funnel-content p, .Outsource-cont p, .Traffic-cont p {
+    font-size: 14px;
+    line-height: 19px;}
+    .yes-in-btn a {
+    font-size: 31.693px;}
+/*.acc-6-days img, .progress-content img{width: 100%;}*/
+.no-sec h2 {
+    font-size: 119px;
+    line-height: 156px;}
+.guide .image img, .progress-content img, .acc-6-days img, .interested-inner img{width: 100%;}
+.guid-inner-content {
+    padding: 20px 0 0 0;
+}
+}
+@media screen and (max-width: 767px) {
+    img.mobile-im {
+    display: block;
+}
+img.desktop-im {
+    display: none;
+}
+    div.modal::after{z-index: -1;}
+.after-sec-content p {
+    font-size: 22px;
+    line-height: 31px;
+    padding: 0;
+}
+.banner-content h1, .banner-content h2, .after-sec-content h2, .step-content h2 {
+    font-size: 57.153px;
+    line-height: 68px;
+}
+.list-content ul li {
+    font-size: 21px;
+    line-height: 41px;
+}
+.list-content ul li img{width: 30px;}
+/*.spy-content, .Funnel-content, .Outsource-cont, .Outsource-cont.text-center {
+    text-align: left !important;
+}*/
+section.success-step {
+    text-align: center;
+}
+.acc-content h3 {
+    font-size: 40px;
+    line-height: 41px;}
+.Facebook-invent .image-box.box-3 {
+    margin-top: 0;
+}
+.compli-content h2, .acc-6-days h2, .jup-inner-cont h2 {
+    font-size: 39px;
+    line-height: 44px;
+}
+.acc-6-days p, .interested-inner p, .guid-inner-content p, .progress-content p {
+    font-size: 24.73px;
+    line-height: 31px;
+    padding: 15px 0px 20px;
+}
+.failed p {
+    padding: 15px 10px 20px;
+}
+.interested-inner h3 {
+    font-size: 36.73px;
+    line-height: 42px;}
+    .guid-inner-content h2, .progress-content h2 {
+    font-size: 45.58px;
+    line-height: 39px;}
+.progress-content {
+    padding-top: 0;
+}
+.jup-inner-cont.text-center {
+    padding-top: 30px;
+}
+.jup-inner-cont p {
+    font-size: 31px;
+    line-height: 34px;}
+.footer-content p {
+    font-size: 17px;
+    line-height: 116%;
+}
+section.banner-section::before, section.banner-section::after {
+    width: 160px;
+    height: 290px;
+}
+.banner-content h4 {
+    font-size: 30px;
+    line-height: 37px;
+    padding: 30px 10px 30px 0px;
+}
+.banner-content p {
+    font-size: 26px;
+    line-height: 33px;
+    padding: 0 20px;
+}
+}
+@media screen and (max-width: 639px) {
+    .step-content h2{margin-bottom: 20px !important;}
+    .guid-inner-content {
+    text-align: center;
+}
+    h4.modal-title{    font-size: 43.15px;
+    line-height: 79px;    padding-top: 20px;}
+    .modal-body {
+    padding: 10px 30px 0 !important;
+}
+.list-content ul {
+    padding: 0;
+}
+.image-box.box-2 {
+    margin-top: 0;
+}
+.image-box {
+    padding: 26px 0 0 0;
+}
+.no-sec {
+    margin-top: 0;
+}
+.Facebook-invent .image-box{border-bottom:1px solid #D5D3D3; padding-bottom: 26px; }
+}
+@media screen and (max-width: 479px) {
+.logo img{width: 100%;}
+section.banner-section::before, section.banner-section::after {
+    width: 121px;
+    height: 230px;
+    top: 92px;
+}
+.banner-content h1, .banner-content h2, .after-sec-content h2, .step-content h2 {
+    font-size: 49.153px;
+    line-height: 68px;
+}
+.yes-in-btn a, .jup-inner-cont a {
+    font-size: 24.693px;
+    padding: 13px 50px;
+}
+.acc-content h3 {
+    font-size: 29px;
+    line-height: 34px;
+}
+.acc-content.text-center {
+    padding: 21px 0 0 0;
+}
+.acc-content p {
+    font-size: 20.9842px;
+    line-height: 20px;}
+.seo-mlm-marketing {
+    padding-top: 0px;
+}
+.compli-content p {
+    font-size: 29.9667px;
+    line-height: 20px;
+}
+.interested-inner h3 {
+    font-size: 27.73px;
+    line-height: 34px;
+}
+.guid-inner-content h2, .progress-content h2 {
+    font-size: 34.58px;
+    line-height: 15px;
+    padding-top: 20px;
+}
+.compli-content h2, .acc-6-days h2, .jup-inner-cont h2 {
+    font-size: 32px;
+    line-height: 35px;
+}
+.jup-inner-cont p {
+    font-size: 24px;
+    line-height: 34px;
+}
+section.guide {
+    padding: 0 0 1px 0;
+}
+.footer-content p {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 380px) {
+    .banner-content h1, .after-sec-content h2{
+    font-size: 31.153px;
+    line-height: 68px;
+}
+.banner-content p {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0 0px;
+}
+.banner-content h2{padding: 23px 0 10px 0;}
+.banner-content a {
+    font-size: 18PX;
+    line-height: 54px;
+    padding: 15px 38px;
+}
+.list-content ul li {
+    font-size: 26px;
+    line-height: 41px;
+}
+.step-content p {
+    font-size: 16.6333px;
+    line-height: 21px;}
+.step-content h2{margin: 0;}
+.acc-content h3 {
+    font-size: 27px;
+    line-height: 34px;
+    padding: 0;
+}
+.compli-content p, .acc-6-days h5 {
+    font-size: 22.9667px;
+    line-height: 23px;
+}
+.compli-content h2, .acc-6-days h2, .jup-inner-cont h2, .progress-content h3 {
+    font-size: 24px;
+    line-height: 26px;
+}
+.acc-6-days p{font-size: 19.73px;
+    line-height: 23px;}
+}
